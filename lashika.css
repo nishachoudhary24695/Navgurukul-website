@@ -1,0 +1,347 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    margin: 40px;
+
+
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h1 .cam a{
+    text-decoration: none;
+    color: orangered;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h1 .hi{
+    color: orangered;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h1 .ki{
+    color: orangered;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h1 .ab{
+    color: orangered;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h1 .Da{
+    color: orangered;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h1 .rai{
+    color: orangered;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h1 .ja{
+    color: orangered;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h1 .darm{
+    color: orangered;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h1 .h{
+    color: orangered;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h1 .i{
+    color: orangered;
+}
+ .box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid  black;
+    border-radius: 10px;
+    margin: 20px;
+    text-align:center;
+    font-size: larger;
+    font: bold;
+    background-color: lightgrey
+ }
+
+ 
+ .box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid  black;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: larger;
+    background-color: lightgray;
+}
+ .box3{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid  black;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: larger;
+    background-color: lightgray;
+
+
+
+
+ }
+ .box4{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid  black;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: larger;
+    background-color: lightgray;
+
+
+ }
+ .box5{
+    display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     height: 350px;
+     width: 350px;
+     background-color: transparent;
+     border: 2px solid  black;
+     border-radius: 10px;
+     margin: 20px;
+     text-align: center;
+     font-size: larger;
+     background-color: lightgray;
+ 
+ 
+  }
+  .box6{
+    display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     height: 350px;
+     width: 350px;
+     background-color: transparent;
+     border: 2px solid  black;
+     border-radius: 10px;
+     margin: 20px;
+     text-align: center;
+     font-size: larger;
+     background-color: lightgray;
+ 
+ 
+  }
+  .box7{
+    display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     height: 350px;
+     width: 350px;
+     background-color: transparent;
+     border: 2px solid  black;
+     border-radius: 10px;
+     margin: 20px;
+     text-align: center;
+     font-size: larger;
+     background-color: lightgray;
+ 
+ 
+  }
+  .box8{
+    display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     height: 350px;
+     width: 350px;
+     background-color: transparent;
+     border: 2px solid  black;
+     border-radius: 10px;
+     margin: 20px;
+     text-align: center;
+     font-size: larger;
+     background-color: lightgray;
+ 
+ 
+  }
+  .box9{
+    display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     height: 350px;
+     width: 350px;
+     background-color: transparent;
+     border: 2px solid  black;
+     border-radius: 10px;
+     margin: 20px;
+     text-align: center;
+     font-size: larger;
+     background-color: lightgray;
+ 
+ 
+  }
+
+ @media(min-width:1025px){
+    .content{
+        grid-template-columns: repeat( 3, 1fr );
+    }
+}
+ .boxA{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 250px;
+    background-color: transparent;
+    border: 1px solid  black;
+    text-align:center;
+    margin: 50px;
+
+
+ }
+ .box{
+   display: flex;
+   gap:80px;
+    text-align: center;
+    margin-left: 280px;
+ }
+ .boxB{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+    background-color: transparent;
+    border: 1px solid  black;
+    margin: 50px;
+
+ }
+ .boxC{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 250px;
+   width: 250px;
+   margin:40px ;
+   border:1px solid black;
+ }
+ .boxD{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 250px;
+   width: 250px;
+   margin:50px ;
+   border:1px solid black;
+
+ }
+ .boxE{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 250px;
+   width: 250px;
+   margin:50px ;
+   border:1px solid black;
+
+ }
+ .boxF{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 250px;
+   width: 250px;
+   margin:50px ;
+   border:1px solid black;
+
+ }
+ .boxG{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 250px;
+    width: 250px;
+    margin:50px ;
+    border:1px solid black;
+ 
+  }
+  .boxH{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 250px;
+    width: 250px;
+    margin:50px ;
+    border:1px solid black;
+ 
+  }
+  .boxI{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 250px;
+    width: 250px;
+    margin:50px ;
+    border:1px solid black;
+ 
+  }
